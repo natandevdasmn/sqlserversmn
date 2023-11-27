@@ -226,7 +226,6 @@ CREATE TABLE Restaurante_Dono (
 );
 
 
-
 -- -----------------------------------------------------
 -- Inserindo dados na tabela usuário
 -- -----------------------------------------------------
@@ -518,11 +517,19 @@ VALUES
 -- -----------------------------------------------------
 -- Exibindo todas as tabelas e todos os dados inseridos
 -- -----------------------------------------------------
-SELECT *
-FROM Comida
-SELECT *
-FROM Usuario
-SELECT *
-FROM Restaurante
-SELECT *
-FROM Dono
+SELECT * FROM Usuario
+SELECT * FROM Endereco_Usuario
+SELECT * FROM Nota_Fiscal
+SELECT * FROM Motoboy
+SELECT * FROM Localizacao_Motoboy
+SELECT * FROM Cupom_Desconto
+SELECT * FROM Pedido
+SELECT * FROM Restaurante
+SELECT * FROM Endereco_Restaurante
+SELECT * FROM Regiao_Atuacao_Rest 
+SELECT * FROM Moto
+SELECT * FROM Comida
+SELECT * FROM Dono
+SELECT * FROM Telefone_Usuario
+SELECT * FROM Telefone_Restaurante
+SELECT * FROM Restaurante_Dono
